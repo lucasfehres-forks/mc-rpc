@@ -78,7 +78,7 @@ impl Client {0}
     {1}
 
     pub fn from_client(client: pale::Client) -> Self {0}
-        Ok(Self(client))
+        Self(client)
     {1}
 
     /// Calling [`Self::close`] means:
