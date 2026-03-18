@@ -77,7 +77,7 @@ impl Client {0}
         Ok(Self(pale::Client::new(uri, config).await?))
     {1}
 
-    pub async fn from_client(client: pale::Client) -> Self {0}
+    pub fn from_client(client: pale::Client) -> Self {0}
         Ok(Self(client))
     {1}
 
