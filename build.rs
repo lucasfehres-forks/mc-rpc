@@ -70,7 +70,7 @@ fn base_client() -> String {
     format!(
         r#"
 #[derive(Debug, Clone)]
-pub struct Client(pub(crate) pale::Client);
+pub struct Client(pub pale::Client);
 
 impl Client {0}
     pub async fn new(uri: impl AsRef<str>, config: ClientConfig) -> Result<Self> {0}
